@@ -31,12 +31,13 @@
 			<!-- Ninguno de los elementos anteriores es necesario que lo modifiques si no es necesario -->
       <!-- Cada etiqueta section que se encuentre adentro del <div class="slides"> representará a una diapositiva  de la presentación -->
 			<div class="slides">
-				<section>
-          <h1>Hola, esta sería la diapositiva 1</h1><!--Adentro puede ir cualquier codigo html que será mostrado como diapositiva-->
+				<section data-background="#4d7e65">
+          <h1>Hola, esta sería la diapositiva 1 con otro fondo</h1><!--Adentro puede ir cualquier codigo html que será mostrado como diapositiva-->
 				  <h2>Usualmente en esta diapositiva colocamos el tema y la información</h2>
           <h3>Sebastián Gomez</h3>
+          <p>Adicionalmente la siguiente diapositiva hará una transición tipo zoom<p>
         </section>
-        <section>
+        <section data-background="#000" data-background-transition="zoom">
           <h2>Podemos añadir imágenes de manera tan simple como:</h2>
           <img src="images/mi-imagen.jpg" alt="mi-imagen"/>
 				</section>
