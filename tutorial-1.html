@@ -10,7 +10,7 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme"><!--Si queremos cambiar el tema simplemente debemos de cambiar aca el archivo .css usado-->
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 		<!-- Printing and PDF exports -->
@@ -24,6 +24,7 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+    <link rel="stylesheet" href="css/mi-estilo.css"><!--aca puedo tener mis propios estilos css-->
 	</head>
 	<body>
 		<div class="reveal">
@@ -31,7 +32,18 @@
       <!-- Cada etiqueta section que se encuentre adentro del <div class="slides"> representará a una diapositiva  de la presentación -->
 			<div class="slides">
 				<section>
-          <h1>Hola</h1><!--Adentro puede ir cualquier codigo html que será mostrado como diapositiva-->
+          <h1>Hola, esta sería la diapositiva 1</h1><!--Adentro puede ir cualquier codigo html que será mostrado como diapositiva-->
+				  <h2>Usualmente en esta diapositiva colocamos el tema y la información</h2>
+          <h3>Sebastián Gomez</h3>
+        </section>
+        <section>
+          <h2>Podemos añadir imágenes de manera tan simple como:</h2>
+          <img src="images/mi-imagen.jpg" alt="mi-imagen"/>
+				</section>
+        <section>
+          <h2>Esta sería la diapositiva 3</h2>
+          <p> Esta diapositiva tendría un párrafo con letra normal</p>
+          <p class="letra-roja"> Este es un párrafo con letra roja</p>
 				</section>
 			</div>
 		</div>
